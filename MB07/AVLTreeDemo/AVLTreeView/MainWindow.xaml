@@ -1,0 +1,30 @@
+﻿<Window x:Class="AVLTreeView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="487" Width="867" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="0,3,0,0" Name="txtAddValue" VerticalAlignment="Top" Width="120" Text="1,2,3,4" />
+        <Button Grid.Row="1" Content="Add" Height="23" HorizontalAlignment="Left" Margin="126,3,0,0" Name="btnAdd" VerticalAlignment="Top" Width="75" Click="btnAdd_Click" />
+        <TextBox Grid.Row="1"  Height="23" HorizontalAlignment="Left" Margin="246,3,0,0" Name="txtRemoveValue" VerticalAlignment="Top" Width="120" Text="1" />
+        <Button Grid.Row="1"  Content="Remove" Height="23" HorizontalAlignment="Left" Margin="372,3,0,0" Name="btnRemove" VerticalAlignment="Top" Width="75" Click="btnRemove_Click" />
+        <Button Grid.Row="1"  Content="Clear" Height="23" HorizontalAlignment="Left" Margin="498,3,0,0" Name="btnClear" VerticalAlignment="Top" Width="75" Click="btnClear_Click" />
+        <Button Grid.Row="1"  Content="Add 20" Height="23" HorizontalAlignment="Left" Margin="655,3,0,0" Name="btnAdd100" VerticalAlignment="Top" Width="75" Click="btnAdd100_Click" />
+        <Button Grid.Row="1"  Content="Bad 20" Height="23" HorizontalAlignment="Right" Margin="0,3,18,0" Name="btnBad100" VerticalAlignment="Top" Width="75" Click="btnBad100_Click" />
+        <TabControl Grid.Row="0" Name="tabControl1"  >
+            <TabItem Header="AVL Tree" Name="tabAvl">
+                <Grid>
+                    <Image Name="avlImage" Height="415" HorizontalAlignment="Left" Margin="1,0,0,0" VerticalAlignment="Top" Width="840" Stretch="Fill" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Binary Tree" Name="tabBinary">
+                <Grid>
+                    <Image Name="binaryImage" Height="415" HorizontalAlignment="Left" Margin="1,0,0,0" VerticalAlignment="Top" Width="840" Stretch="Fill" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
