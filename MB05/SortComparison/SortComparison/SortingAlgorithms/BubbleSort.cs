@@ -1,27 +1,36 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
-namespace SortComparison {
+namespace SortComparison.SortingAlgorithms
+{
     public class BubbleSort : SortAlgorithm {
-        public override string Name => "Bubblesort";
-        public override void Sort(IList<int> arrayToSort) {
-            var swapMade = true;
-            var n = arrayToSort.Count - 1;
-            for (var i = 0; i < n && swapMade; i++) {
-                swapMade = false;
+        public override string Name => "BubbleSort";
 
-                for (var j = n; j > i; j--) {
-                    if (arrayToSort[j-1] > arrayToSort[j]) {
-                        SwapItems(arrayToSort, j - 1, j);
-                        swapMade = true;
+        public override void Sort(IList<int> arrayToSort) {
+            var length = arrayToSort.Count;
+
+            var swapped = true;
+
+            while (swapped) {
+                swapped = false;
+
+                for (var i = 0; i < length - 1; i++) {
+                    if (arrayToSort[i] > arrayToSort[i + 1]) {
+                        SwapItems(arrayToSort, i, i + 1);
+                        swapped = true;
                     }
                 }
+
+                length--;
             }
         }
 
-        private void SwapItems(IList<int> arrayToSort, int index1, int index2) {
-            var temp = arrayToSort[index1];
-            arrayToSort[index1] = arrayToSort[index2];
-            arrayToSort[index2] = temp;
+        private void SwapItems(IList<int> arrayToSort, int idx1, int idx2) {
+            var temp = arrayToSort[idx2];
+            arrayToSort[idx2] = arrayToSort[idx1];
+            arrayToSort[idx1] = temp;
         }
     }
 }

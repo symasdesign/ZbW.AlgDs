@@ -39,8 +39,8 @@ namespace DatenstrukturenIntro {
 
         private static int CountUniqueIPs() {
             var logReader = new LogReader();
-            var ipsSeen = new List<string>();
-            //var ipsSeen = new HashSet<string>();
+            //var ipsSeen = new List<string>();
+            var ipsSeen = new HashSet<string>();
             foreach (var logLine in logReader) {
                 var ip = logLine.GetIP();
                 if (!ipsSeen.Contains(ip))
