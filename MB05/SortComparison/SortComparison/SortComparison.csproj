@@ -59,6 +59,7 @@
     <Compile Include="SortingAlgorithms\BubbleSort.cs" />
     <Compile Include="SortingAlgorithms\InsertionSort.cs" />
     <Compile Include="SortAlgorithm.cs" />
+    <Compile Include="SortingAlgorithms\MergeSort.cs" />
     <Compile Include="SortingList.cs" />
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>

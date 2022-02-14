@@ -1,0 +1,9 @@
+C:\Repos\Neuer Ordner\ZbW.AlgDs\MB05\SortComparison\SortComparison\bin\Debug\SortComparison.exe
+C:\Repos\Neuer Ordner\ZbW.AlgDs\MB05\SortComparison\SortComparison\bin\Debug\SortComparison.pdb
+C:\Repos\Neuer Ordner\ZbW.AlgDs\MB05\SortComparison\SortComparison\obj\x86\Debug\SortComparison.csproj.AssemblyReference.cache
+C:\Repos\Neuer Ordner\ZbW.AlgDs\MB05\SortComparison\SortComparison\obj\x86\Debug\SortComparison.frmMain.resources
+C:\Repos\Neuer Ordner\ZbW.AlgDs\MB05\SortComparison\SortComparison\obj\x86\Debug\SortComparison.Properties.Resources.resources
+C:\Repos\Neuer Ordner\ZbW.AlgDs\MB05\SortComparison\SortComparison\obj\x86\Debug\SortComparison.csproj.GenerateResource.cache
+C:\Repos\Neuer Ordner\ZbW.AlgDs\MB05\SortComparison\SortComparison\obj\x86\Debug\SortComparison.csproj.CoreCompileInputs.cache
+C:\Repos\Neuer Ordner\ZbW.AlgDs\MB05\SortComparison\SortComparison\obj\x86\Debug\SortComparison.exe
+C:\Repos\Neuer Ordner\ZbW.AlgDs\MB05\SortComparison\SortComparison\obj\x86\Debug\SortComparison.pdb
