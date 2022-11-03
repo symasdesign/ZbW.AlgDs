@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MusicDB.Discs">
+    <Position X="4" Y="1" Width="1.5" />
+    <AssociationLine Name="RedBlackTree" Type="My.Collections.RedBlackTree&lt;TKey, TValue&gt;" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.5" Y="2.5" />
+        <Point X="5.875" Y="2.5" />
+        <Point X="5.875" Y="1.781" />
+        <Point X="6.75" Y="1.781" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQAAgAAAkAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Discs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RedBlackTree" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MusicDB.Disc" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAEQAIAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Discs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My.Collections.RedBlackTree&lt;TKey, TValue&gt;" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAKAAAAgAAAAECAAgAAwAAAAAAAAAAAQAQAAQIAA=</HashCode>
+      <FileName>C:\Users\cordt\Desktop\Quellcode\RedBlackTree\RedBlackTree.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Disc" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WebServer.HttpServer">
+    <Position X="3.25" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="listener" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="WebServer.HttpServer.Requests">
+        <Members>
+          <Field Name="queue" Hidden="true" />
+        </Members>
+        <TypeIdentifier>
+          <NewMemberFileName>WebServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="WebServer.HttpServer.Request">
+        <Members>
+          <Field Name="c" Hidden="true" />
+          <Method Name="Failure" Hidden="true" />
+          <Method Name="HandleRequest" Hidden="true" />
+          <Field Name="localPath" Hidden="true" />
+          <Method Name="Process" Hidden="true" />
+          <Method Name="ReadHeader" Hidden="true" />
+          <Method Name="Request" Hidden="true" />
+          <Method Name="Success" Hidden="true" />
+        </Members>
+        <TypeIdentifier>
+          <NewMemberFileName>WebServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAACKAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WebServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
