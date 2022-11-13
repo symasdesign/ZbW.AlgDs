@@ -49,7 +49,8 @@ namespace LineareDatenstrukturen {
 
             //--------------------------------------
 
-            var queue = new Queue<int>();
+            //var queue = new Queue<int>();
+            var queue = new QueueLinkedList();
             //var queue = new QueueCircularBuffer<int>();
 
             for (int i = 1; i < 16; i++)
