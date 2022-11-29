@@ -51,6 +51,7 @@
     <Compile Include="QueueCircularBuffer.cs" />
     <Compile Include="SinglyLinkedList.cs" />
     <Compile Include="Stack.cs" />
+    <Compile Include="StackLinkedList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
